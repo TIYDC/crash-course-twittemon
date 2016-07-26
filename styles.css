@@ -1,0 +1,108 @@
+body {
+    background-color: lightgray;
+    margin: 0;
+}
+.inline-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.inline-nav li {
+    display: inline;
+    margin: 0 1em;
+}
+.light-links a {
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}
+.light-links a:hover {
+    color: black;
+}
+
+
+.page-header {
+    background-color: white;
+    border-bottom: 1px solid gray;
+    height: 3em;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.page-header nav {
+    float: left;
+    margin-top: 1em;
+}
+.page-header aside {
+    float: right;
+    margin-top: 0.8em;
+}
+.page-header form {
+    display: inline;
+}
+.page-header [name='query'] {
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    height: 1.5em;
+    width: 15em;
+}
+.page-header [name='query']:focus {
+    outline: none;
+    border: 1px solid lightblue;
+}
+
+
+main {
+    clear: both;
+    background: transparent url('field.jpg') center -200px no-repeat;
+    background-size: 100% 450px;
+    padding: 270px 100px 0 100px;
+}
+
+.content-header {
+    height: 200px;
+    overflow: hidden;
+}
+.content-header img {
+    width: 100%;
+}
+
+.sidebar {
+    position: relative;
+    top: -100px;
+    width: 150px;
+    float: left;
+}
+.sidebar img {
+    width: 100%;
+}
+
+.pokeets {
+    margin-left: 170px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid gray;
+    min-width: 22em;
+}
+.pokeets > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.pokeets > ul > li {
+    border-bottom: 1px solid gray;
+    margin: 1em 0;
+    padding: 0 1em;
+}
+.pokeets > ul > li:last-child {
+    border: none;
+}
+.pokeets .avatar {
+    width: 50px;
+}
+.pokeets h2, .pokeets h3 {
+    display: inline;
+}
+.pokeets h3 {
+    color: lightgray;
+}
