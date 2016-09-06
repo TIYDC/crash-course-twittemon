@@ -52,33 +52,34 @@ body {
 }
 
 
-main {
-    clear: both;
-    background: transparent url('field.jpg') center -200px no-repeat;
-    background-size: 100% 450px;
-    padding: 270px 100px 0 100px;
-}
-
-.content-header {
-    height: 200px;
-    overflow: hidden;
-}
-.content-header img {
-    width: 100%;
+main.content {
+    padding: 50px;
 }
 
 .sidebar {
-    position: relative;
-    top: -100px;
-    width: 150px;
+    background-color: white;
+    width: 200px;
     float: left;
+    border-radius: 10px;
+    padding: 10px;
 }
-.sidebar img {
+.sidebar .cover {
     width: 100%;
+}
+.sidebar .avatar {
+    width: 75px;
+}
+.sidebar main {
+    float: right;
+    width: 110px;
+}
+.sidebar h3 {
+    color: gray;
+    font-size: 0.9em;
 }
 
 .pokeets {
-    margin-left: 170px;
+    margin-left: 240px;
     background-color: white;
     border-radius: 8px;
     border: 1px solid gray;
